@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bereket</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mediaqueries.css" />
+    <link rel="stylesheet" href="./styles/text_animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assets/B logo-01.png" alt="logo" />
+      </div>
+      <div>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">My_Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="./assets/B logo-01.png" alt="logo" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="ttoggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">My_Works</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="card">
+        <img src="./assets/profile2.png" alt="profile_pic" />
+        <div class="icons ic1">
+          <a href="https://instagram.com/bereketdesta" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a
+            href="https://x.com/desta_bereket?t=NHRObOED9PWMOrEuYrszmQ&s=09"
+            target="blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </div>
+        <div class="icons ic2">
+          <a
+            href="https://www.facebook.com/profile.php?id=61556827123389"
+            target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://github.com/bereket-desta" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </div>
+        <div class="text">
+          <h2>Bek</h2>
+          <p>Web developer</p>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="info">
+        <h1>Hey, I am Bek</h1>
+        <div class="desc">
+          <span>I'm a</span>
+          <div class="rw-words rw-words-1">
+            <span>WEB Developer</span>
+            <span>SOFTWARE Developer</span>
+            <span>GRAPHIC Designer</span>
+            <span>UI/UX Designer</span>
+            <span>FREELANCER</span>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='/#contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://t.me/B_user40" target="_blank"
+            ><i class="fab fa-telegram fa-2x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/bereket-desta-90a4a3303"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+          <a href="https://github.com/bereket-desta" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="title">About <span>Me</span></h2>
+      <div class="about-container">
+        <div class="about-img">
+          <img src="./assets/profile1.jpg" alt="profile-pic" />
+        </div>
+        <div class="about-desc">
+          <p>
+            I am Bereket, a creative and versatile professional with skills and
+            experience in web development, graphic design and software
+            development. I enjoy creating beautiful and functional products that
+            solve problems and meet user needs. I am always eager to learn new
+            things and improve my craft. <a href="#">Click-Here</a> to see some
+            of my projects that I am proud of.
+          </p>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <img
+            src="./assets/experience.png"
+            alt="experience icon"
+            class="icon"
+          />
+          <h3>Experience</h3>
+          <div class="article-container">
+            <ul>
+              <li>
+                <p>
+                  Involved in a several school projects as a web and software
+                  designer, developer and as a teamleader in group projects
+                </p>
+              </li>
+              <li>
+                <p>
+                  Worked on projects as freelancer for companies and individuals
+                  in graphic-design and logo design and branding
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="education icon" class="icon" />
+          <h3>Education</h3>
+          <div class="article-container">
+            <ul>
+              <li>
+                <p>B.Sc. Bachlors Degree: Computer Science</p>
+              </li>
+              <li>
+                <p>Responive Web-Design certification, from freeCodeCamp</p>
+                <a
+                  href="https://freecodecamp.org/certification/Bereket51/responsive-web-design"
+                  target="_blank"
+                  >See Certificate</a
+                >
+              </li>
+              <li>
+                <p>Javascript certification, from Simplilearn.com</p>
+                <a
+                  href="https://simpli-web.app.link/e/Q13ve3byGIb"
+                  target="_blank"
+                  >See Certificate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="experience">
+        <p class="section_text_p1">Skills I have</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-container">
+          <div class="details-container">
+            <img
+              src="./assets/web-development.png"
+              alt="web-development icon"
+              class="icon"
+            />
+            <h3>Web Development</h3>
+
+            <div class="article-container">
+              <article>
+                <img src="./assets/html.png" alt="html icon" class="icon" />
+                <div>
+                  <h5>HTML</h5>
+                  <p>experianced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/css.png" alt="css icon" class="icon" />
+                <div>
+                  <h5>CSS</h5>
+                  <p>experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascript.png"
+                  alt="javascript icon"
+                  class="icon"
+                />
+                <div>
+                  <h5>JavaScript</h5>
+                  <p>experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/library.png" alt="css icon" class="icon" />
+                <div>
+                  <h5>React</h5>
+                  <p>intermediat</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/nodejs.png" alt="css icon" class="icon" />
+                <div>
+                  <h5>Node JS</h5>
+                  <p>basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/software-development.png"
+              alt="software icon "
+              class="icon"
+            />
+            <h3>Software Development</h3>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/java-logo.png"
+                  alt="java icon"
+                  class="icon"
+                />
+                <div>
+                  <h5>Java</h5>
+                  <p>experianced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/cpp.png" alt="C++ icon" class="icon" />
+                <div>
+                  <h4>C++</h4>
+                  <p>intermediat</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/python.png" alt="python icon" class="icon" />
+                <div>
+                  <h5>Python</h5>
+                  <p>intermediat</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/graphic-design.png"
+              alt="graphic designer icon"
+              class="icon"
+            />
+            <h3>graphic design</h3>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/illustrator.png"
+                  alt="Adobe illustrator icon"
+                  class="icon"
+                />
+                <div>
+                  <h5>Adobe Illustrator</h5>
+                  <p>intermediat</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/photoshop.png"
+                  alt="Adobe photoshop icon"
+                  class="icon"
+                />
+                <div>
+                  <h5>Adobe Photoshop</h5>
+                  <p>intermediat</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1 class="title">my <span>works</span></h1>
+      <p>Here are some of my projects that I am proud of.</p>
+
+      <div class="project-tile">
+        <a id="profile-link" href="" target="_blank">
+          <div class="project-card card">
+            <img src="./assets/bookstore.png" alt="profile_pic" />
+            <div class="project-text">
+              <h2>LitLightHouse</h2>
+              <p>
+                <b>About:</b> Book Store Website<br />
+                <b>language:</b> HTML, CSS and JS<br />
+              </p>
+              <div class="btn-container">
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a id="profile-link" href="" target="_blank">
+          <div class="project-card card">
+            <img src="./assets/bank-01.png" alt="profile_pic" />
+            <div class="project-text">
+              <h2>B M S</h2>
+              <p>
+                <b>About:</b> bank mngement software<br />
+                <b>language:</b> C++<br />
+              </p>
+              <div class="btn-container">
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a id="profile-link" href="" target="_blank">
+          <div class="project-card card">
+            <img src="./assets/stud-01.png" alt="profile_pic" />
+            <div class="project-text">
+              <h2>Student registration</h2>
+              <p>
+                <b>About: </b>student registration SW<br />
+                <b>language:</b> Java and SQL<br />
+              </p>
+              <div class="btn-container">
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  type="button"
+                  class="btn1 btn-color-2 project-btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <a href="" class="btn2">See More</a>
+    </section>
+
+    <section id="contact">
+      <h2 class="title">Contact <span>Me</span></h2>
+      <div class="contact-container">
+        <div class="details-contact">
+          <form
+            action="https://formsubmit.co/bereketdesta51@gmail.com"
+            method="POST"
+          >
+            <input type="text" placeholder="your name" class="box" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="your email"
+              class="box"
+              required
+            />
+            <input type="number" placeholder="your number" class="box" />
+
+            <textarea
+              name=""
+              placeholder="your message"
+              class="box"
+              id=""
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <input type="submit" value="send message" class="btn" />
+          </form>
+        </div>
+        <div class="details-contact">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +251-932-041-848 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +251-954-466-259 </a>
+          <a
+            href="mailto:bereketdesta51@gmail.com ? subjuct=mail from my portfolio website "
+          >
+            <i class="fas fa-envelope"></i> bereketdesta51@gmail.com
+          </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia
+          </a>
+        </div>
+      </div>
+      <h2>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/profile.php?id=61556827123389"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://x.com/desta_bereket?t=NHRObOED9PWMOrEuYrszmQ&s=09"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/bereket-desta" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://t.me/B_user40" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </div>
+      </h2>
+    </section>
+
+    <footer>
+      <p>copyright ©2024; designed by Bereket. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

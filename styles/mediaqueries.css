@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    background-color: #faeed8;
+    height: 7vh;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  #profile {
+    height: 100%;
+  }
+  #profile .card {
+    margin: 30px 30px 0;
+  }
+  .info {
+    justify-content: unset;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .about-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
