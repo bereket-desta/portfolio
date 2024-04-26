@@ -571,7 +571,7 @@ article {
   gap: 0rem;
 }
 
-.project-tile::after {
+.project-tile::after, .experiance-container::after {
   content: "";
   width: 350px;
 }
