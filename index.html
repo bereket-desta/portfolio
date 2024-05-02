@@ -13,6 +13,18 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "PlqpQEMHdyKfABb3V",
+      });
+   })();
+</script>
+    
   </head>
   <body>
     <nav id="desktop-nav">
@@ -415,24 +427,25 @@
       <div class="contact-container">
         <div class="details-contact">
           <form
-            action="https://formsubmit.co/5a48eb378211631914b4e752866214aa"
+            action=""
             method="POST"
           >
-            <input type="text" placeholder="your name" class="box" required />
+            <input type="text" id="name" placeholder="your name" class="box" required />
             <input
               type="email"
+              id="email"
               name="email"
               placeholder="your email"
               class="box"
               required
             />
-            <input type="number" placeholder="your number" class="box" />
+            <input type="number" id="number" placeholder="your number" class="box" />
 
             <textarea
               name="message"
               placeholder="your message"
               class="box"
-              id=""
+              id="message"
               cols="30"
               rows="10"
               required
