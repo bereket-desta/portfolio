@@ -426,11 +426,9 @@
       <h2 class="title">Contact <span>Me</span></h2>
       <div class="contact-container">
         <div class="details-contact">
-          <form
-            action=""
-            method="POST"
-          >
-            <input type="text" id="name" placeholder="your name" class="box" required />
+          <form>
+            <input type="text" id="name" name="name" placeholder="your name" class="box" required />
+            <input type="text" id="subject" name="subject" placeholder="your name" class="box" required />
             <input
               type="email"
               id="email"
@@ -439,7 +437,7 @@
               class="box"
               required
             />
-            <input type="number" id="number" placeholder="your number" class="box" />
+            <input type="number" id="number" name="number" placeholder="your number" class="box" />
 
             <textarea
               name="message"
