@@ -7,10 +7,10 @@ function toggleMenu() {
 
 function sendMail(){
   let parms= {
-    name: document.getElementById("name").value;
-    email: document.getElementById("email").value;
-    number: document.getElementById("number").value;
-    message: document.getElementById("message").value;
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    number: document.getElementById("number").value,
+    message: document.getElementById("message").value
   };
 emailjs.send("service_g5o8oik", "template_rkvofpt", parms).then(alert("Email sent!"));
 }
